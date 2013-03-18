@@ -1,4 +1,4 @@
-DrupalCommerce
-==============
+Drupal Commerce
+=====
 
-DIBS Drupal Commerce Shop Module
+This file will soon be updated with installation guide.
