@@ -1,95 +1,49 @@
-# 
+  
 
-# Readme - Drupal commerce
+# DIBS Shop module: Drupal commerce 
 
-This is a guide for DIBS Shop module for: Drupal commerce 
+## Introduction
 
+<span style="line-height: 1.5;">Drupal Commerce is used to build eCommerce websites and applications of all sizes. At its core it is lean and mean, enforcing strict development standards and leveraging the greatest features of Drupal 7 and major modules like Views and Rules for maximum flexibility.</span>
 
-##Introduction
-Drupal Commerce is used to build eCommerce websites and applications of all sizes. At its core it is lean and mean, enforcing strict development standards and leveraging the greatest features of Drupal 7 and major modules like Views and Rules for maximum flexibility.
+## Information about the module
+<div class="table-wrap"><table class="confluenceTable"><tbody><tr><td colspan="1" class="confluenceTd">Module last updated:</td><td colspan="1" class="confluenceTd"><span style="color: rgb(0,0,0);">2012-07-30</span></td></tr><tr><td class="confluenceTd">Module tested on versions:</td><td class="confluenceTd">7</td></tr><tr><td class="confluenceTd">Test information:</td><td class="confluenceTd"> </td></tr><tr><td class="confluenceTd">DIBS Modulenames and versions:</td><td class="confluenceTd">commerce_dibspw</td></tr></tbody></table></div>
 
-##Information about the module
+## How to install/configure
 
-Module last updated:2012-07-30
+*   <span style="line-height: 1.4285715;">Sign in as Administrator. </span>
+*   Go to the Modules section on administration panel on top of the page.
+*   Click + Install new module link: 
+*   Type URL to module or choose module package to upload.<span><span style="text-decoration: none;"> </span></span>
+*   <span><span style="text-decoration: none;"> On</span></span><span> </span><span><span style="text-decoration: none;">success</span></span><span> </span><span><span style="text-decoration: none;">message</span></span><span> </span><span><span style="text-decoration: none;">click</span></span><span> </span><span><span style="text-decoration: none;">the</span></span><span> </span><span><span style="text-decoration: none;">link</span></span><span> </span>_<u>Enable</u>__<u> </u>__<u>newly</u>__<u> </u>__<u>added</u>__<u> </u>__<u>modules</u>_<span><span style="text-decoration: none;"> </span></span>
+*   <span style="line-height: 1.4285715;"> In the bottom of modules page find DIBS Payment Window module and check its checkbox:</span>
+*   <span style="line-height: 1.4285715;"><span>Click</span></span><span style="line-height: 1.4285715;"> </span>_<u>Save</u>__<u> </u>__<u>configuration</u>_<span style="line-height: 1.4285715;"> </span><span style="line-height: 1.4285715;"><span>button.</span></span>
+*   <span style="line-height: 1.4285715;"><span>If</span></span><span style="line-height: 1.4285715;"> </span><span style="line-height: 1.4285715;"><span>you</span></span><span style="line-height: 1.4285715;"> </span><span style="line-height: 1.4285715;"><span>see</span></span><span style="line-height: 1.4285715;"> </span>_<u>Some</u>__<u> </u>__<u>required</u>__<u> </u>__<u>modules</u>__<u> </u>__<u>must</u>__<u> </u>__<u>be</u>__<u> </u>__<u>enabled</u>_<span style="line-height: 1.4285715;"> </span><span style="line-height: 1.4285715;"><span>notice,</span></span><span style="line-height: 1.4285715;"> </span><span style="line-height: 1.4285715;"><span>click</span></span><span style="line-height: 1.4285715;"> </span>_<u>Continue</u>_<span style="line-height: 1.4285715;"> </span><span style="line-height: 1.4285715;"><span>to</span></span><span style="line-height: 1.4285715;"> </span><span style="line-height: 1.4285715;"><span>install</span></span><span style="line-height: 1.4285715;"> </span><span style="line-height: 1.4285715;"><span>module</span></span><span style="line-height: 1.4285715;"> </span><span style="line-height: 1.4285715;"><span>dependencies.</span></span>
+*   <span style="line-height: 1.4285715;"><span>You</span></span><span style="line-height: 1.4285715;"> </span><span style="line-height: 1.4285715;"><span>should</span></span><span style="line-height: 1.4285715;"> </span><span style="line-height: 1.4285715;"><span>see</span></span><span style="line-height: 1.4285715;"> </span>_<u>The</u>__<u> </u>__<u>configuration</u>__<u> </u>__<u>options</u>__<u> </u>__<u>have</u>__<u> </u>__<u>been</u>__<u> </u>__<u>saved.</u>_<span style="line-height: 1.4285715;"> </span><span style="line-height: 1.4285715;"><span>message</span></span><span style="line-height: 1.4285715;"> </span><span style="line-height: 1.4285715;"><span>in</span></span><span style="line-height: 1.4285715;"> </span><span style="line-height: 1.4285715;"><span>case</span></span><span style="line-height: 1.4285715;"> </span><span style="line-height: 1.4285715;"><span>of</span></span><span style="line-height: 1.4285715;"> </span><span style="line-height: 1.4285715;"><span>successful</span></span><span style="line-height: 1.4285715;"> </span><span style="line-height: 1.4285715;"><span>installation.</span></span>
+*   <span style="line-height: 1.4285715;">Sign in as Administrator.</span><span style="line-height: 1.4285715;"><span> </span></span>
+*   <span style="line-height: 1.4285715;"><span>Go</span></span><span style="line-height: 1.4285715;"> </span><span style="line-height: 1.4285715;"><span>to</span></span><span style="line-height: 1.4285715;"> </span><span style="line-height: 1.4285715;"><span>the</span></span><span style="line-height: 1.4285715;"> </span>_<u>Store</u>_<span style="line-height: 1.4285715;"> </span><span style="line-height: 1.4285715;"><span>section</span></span><span style="line-height: 1.4285715;"> </span><span style="line-height: 1.4285715;"><span>on</span></span><span style="line-height: 1.4285715;"> </span><span style="line-height: 1.4285715;"><span>administration</span></span><span style="line-height: 1.4285715;"> </span><span style="line-height: 1.4285715;"><span>panel</span></span><span style="line-height: 1.4285715;"> </span><span style="line-height: 1.4285715;"><span>on</span></span><span style="line-height: 1.4285715;"> </span><span style="line-height: 1.4285715;"><span>top</span></span><span style="line-height: 1.4285715;"> </span><span style="line-height: 1.4285715;"><span>of</span></span><span style="line-height: 1.4285715;"> </span><span style="line-height: 1.4285715;"><span>the</span></span><span style="line-height: 1.4285715;"> </span><span style="line-height: 1.4285715;"><span>page.</span></span>
+*   <span style="line-height: 1.4285715;"><span>Click</span></span><span style="line-height: 1.4285715;"> </span>_<u>Configuration</u>_<span style="line-height: 1.4285715;"> </span><span style="line-height: 1.4285715;"><span>link:</span></span>
+*   Click _<u>Payment</u>__<u> </u>__<u>Methods</u>_<span> </span><span><span style="text-decoration: none;">in</span></span><span> </span>_<u>Configuration</u>_<span> </span><span><span style="text-decoration: none;">menu:</span></span>
+*   <span><span style="text-decoration: none;">You'll</span></span><span> </span><span><span style="text-decoration: none;">see</span></span><span> </span><span><span style="text-decoration: none;">available</span></span><span> </span><span><span style="text-decoration: none;">modules</span></span><span> </span><span><span style="text-decoration: none;">list.</span></span><span> </span><span><span style="text-decoration: none;">Click</span></span><span> </span>_<u>edit</u>_<span> </span><span><span style="text-decoration: none;">near</span></span><span> </span><span><span style="text-decoration: none;">DIBS</span></span><span> </span><span><span style="text-decoration: none;">module</span></span><span> </span><span><span style="text-decoration: none;">(in</span></span><span> </span>_<u>Operations</u>_<span> </span><span><span style="text-decoration: none;">column):</span></span>
+*   <span><span style="text-decoration: none;">Click</span></span><span> </span><span><span style="text-decoration: none;">to</span></span><span> </span><span><span style="text-decoration: none;">the</span></span><span> </span><span><span style="text-decoration: none;">module</span></span><span> </span><span><span style="text-decoration: none;">element</span></span><span> </span><span><span style="text-decoration: none;">in</span></span><span> </span><span><span style="text-decoration: none;">the</span></span><span> </span>_<u>Action</u>_<span> </span><span><span style="text-decoration: none;">list:</span></span>
+*   <span><span style="text-decoration: none;">Fill</span></span><span> </span><span><span style="text-decoration: none;">in</span></span><span> </span><span><span style="text-decoration: none;">the</span></span><span> </span>_<u>Payment</u>__<u> </u>__<u>Settings</u>_<span> </span><span><span style="text-decoration: none;">section</span></span><span> </span><span><span style="text-decoration: none;">and</span></span><span> </span><span><span style="text-decoration: none;">click</span></span><span> </span>_<u>Save</u>_<span> </span><span><span style="text-decoration: none;">button</span></span><span> </span><span><span style="text-decoration: none;">in</span></span><span> </span><span><span style="text-decoration: none;">the</span></span><span> </span><span><span style="text-decoration: none;">bottom</span></span><span> </span><span><span style="text-decoration: none;">of</span></span><span> </span><span><span style="text-decoration: none;">the</span></span><span> </span><span><span style="text-decoration: none;">list.</span></span>
 
-Module tested on versions:
-7
+## Common issues
 
-
-##Install/setup module
-
-How to install/configure
-
-3.1 Sign in as Administrator.
-
-3.2 Go to the Modules section on administration panel on top of the page.
-
-3.3 Click Install new module link: 
-
-![12746984.png][1]
-
-3.4 Type URL to module or choose module package to upload. 
-
-3.5  On success message click the link _Enable__ __newly__ __added__ __modules_ 
-
-3.6  In the bottom of modules page find DIBS Payment Window module and check its checkbox:
-
- ![12746985.png][2]
+In order to make this module work properly you need to **check****all** checkboxes in 
+__<u>Integration</u>__ → __<u>Return Values</u>__ section of DIBS Merchant Administration and click __Save__ __Settings__ <span> </span><span><span style="text-decoration: none;">button:</span></span>
 
 
-3.7 Click _Save__ __configuration_ button.
+## Contact
+<div class="table-wrap"><table class="confluenceTable"><tbody><tr><th class="highlight-grey confluenceTh" colspan="2" data-highlight-colour="grey">You can get in touch with us here:</th></tr><tr><td class="confluenceTd">Github:</td><td class="confluenceTd">
 
-3.8 If you see _Some__ __required__ __modules__ __must__ __be__ __enabled_ notice, click _Continue_ to install module dependencies.
+https://github.com/DIBS-Payment-Services/DrupalCommerce
+</td></tr><tr><td class="confluenceTd">Mail:</td><td class="confluenceTd">
 
-3.9 You should see _The__ __configuration__ __options__ __have__ __been__ __saved._ message in case of successful installation.
+support@dibs.dk
+</td></tr><tr><td class="confluenceTd">Phone</td><td class="confluenceTd">
 
-3.10 Sign in as Administrator. 
++45 70 20 30 77
+</td></tr></tbody></table></div>
 
-3\. 11 Go to the _Store_ section on administration panel on top of the page.
-
-3\. 12 Click _Configuration_ link:
-
-![12746986.png][3]
-
-3.13  Click _Payment__ __Methods_ in _Configuration_ menu:
-
-![12746987.png][4]
-
-3.14 You'll see available modules list. Click _edit_ near DIBS module (in _Operations_ column):
-
-![12746988.png][5]
-
-3.15  Click to the module element in the _Action_ list:
-
-![12746989.png][6]
-
-3.16 Fill in the _Payment__ __Settings_ section and click _Save_ button in the bottom of the list.
-
-
-##Common issues
-4.1For proper work of this module you need to **check** **all** checkboxes in 
-_Integration__ → __Return__ __Values_ section of DIBS Merchant Administration and click _Save__ __Settings_ button:
-
-
-![12746990.png][7]
-
-
-
-
-##Contact
-
-You can get in touch with us gere:
-
-Github: https://github.com/DIBS-Payment-Services/DrupalCommerce
-
-Mail: support@dibs.dk
-
-
-   [1]: https://raw.github.com/dibspayment/readme-resources/master/drupalcommerce/image2013-7-2%2014:27:2.png
-   [2]: https://raw.github.com/dibspayment/readme-resources/master/drupalcommerce/image2013-7-2%2014:28:16.png
-   [3]: https://raw.github.com/dibspayment/readme-resources/master/drupalcommerce/image2013-7-2%2014:37:18.png
-   [4]: https://raw.github.com/dibspayment/readme-resources/master/drupalcommerce/image2013-7-2%2014:40:32.png
-   [5]: https://raw.github.com/dibspayment/readme-resources/master/drupalcommerce/image2013-7-2%2014:41:9.png
-   [6]: https://raw.github.com/dibspayment/readme-resources/master/drupalcommerce/image2013-7-2%2014:41:43.png
-   [7]: https://raw.github.com/dibspayment/readme-resources/master/drupalcommerce/image2013-7-2%2014:44:34.png
-   [8]: images/icons/bullet_blue.gif
+                    
