@@ -21,10 +21,11 @@ function commerce_dibspw_success() {
 }
 
 function commerce_dibspw_callback() {
-    if(isset($_POST['orderid'])) {
+    if(isset($_POST['orderid']) && $_POST['status'] == "ACCEPTED") {
         watchdog('dibspw', 'Callback performed for order: !order_id.', 
              array('!order_id' => check_plain($_POST['orderid'])));
         $order = commerce_order_load($_POST['orderid']);
+        commerce_checkout_complete($order);
         $payment_method = commerce_payment_method_instance_load($order->data['payment_method']);
         dibs_pw_helpers_cms::cms_dibs_setSettings($payment_method['settings']);
         if (!$payment_method || $payment_method['method_id'] != 'dibspw') return FALSE;
