@@ -79,6 +79,7 @@ function commerce_dibspw_settings_form($settings = NULL) {
     $settings = (array)$settings + array(
         'dibspw_method_title' => "DIBS Payment Window",
         'dibspw_mid'          => "",
+	'dibspw_partnerid'    => "",
         'dibspw_method'       => 2,
         'dibspw_hmac'         => "",
         'dibspw_testmode'     => TRUE,
@@ -105,6 +106,14 @@ function commerce_dibspw_settings_form($settings = NULL) {
         '#title' => t('DIBS Merchant ID'),
         '#description' => t('Your DIBS merchant account number.'),
         '#default_value' => $settings['dibspw_mid'],
+        '#size' => 16
+    );
+    
+   $form['dibspw_partnerid'] = array(
+        '#type' => 'textfield',
+        '#title' => t('DIBS Partner Id'),
+        '#description' => t('Partner Id.'),
+        '#default_value' => $settings['dibspw_partnerid'],
         '#size' => 16
     );
 
