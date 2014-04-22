@@ -273,6 +273,17 @@ function commerce_dibspw_build_redirect_form($form, &$form_state, $order, $setti
 }
 
 function commerce_dibspw_process_transaction($order, $payment_method, $transaction_status) {
+    $dibsInvoiceFields = array("acquirerLastName",          "acquirerFirstName",
+                                       "acquirerDeliveryAddress",   "acquirerDeliveryPostalCode",
+                                       "acquirerDeliveryPostalPlace" );
+    $dibsInvoiceFieldsString = "";
+  
+    foreach($_POST as $key=>$value) {
+              if(in_array($key, $dibsInvoiceFields)) {
+                   $dibsInvoiceFieldsString .= "{$key}={$value}<br>";              
+              }
+    } 
+
     $transaction_id = commerce_dibspw_get_payment_transaction();
     $transaction = !$transaction_id ? commerce_payment_transaction_new($payment_method['method_id'], 
                                                                        $order->order_id) :
@@ -281,7 +292,7 @@ function commerce_dibspw_process_transaction($order, $payment_method, $transacti
     $transaction->amount = $order->commerce_order_total[LANGUAGE_NONE][0]['amount'];
     $transaction->currency_code = $order->commerce_order_total[LANGUAGE_NONE][0]['currency_code'];
     $transaction->status = $transaction_status;
-    $transaction->message = 'Status: @status';
+    $transaction->message = 'Status: @status<br>' . $dibsInvoiceFieldsString;
     $transaction->message_variables = array('@status' => $_POST['status']);
     $transaction->remote_id = $_POST['transaction'];
     $transaction->remote_status = $_POST['status'];
