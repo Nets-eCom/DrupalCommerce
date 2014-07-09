@@ -275,7 +275,7 @@ function commerce_dibspw_build_redirect_form($form, &$form_state, $order, $setti
 function commerce_dibspw_process_transaction($order, $payment_method, $transaction_status) {
     $dibsInvoiceFields = array("acquirerLastName",          "acquirerFirstName",
                                        "acquirerDeliveryAddress",   "acquirerDeliveryPostalCode",
-                                       "acquirerDeliveryPostalPlace" );
+                                       "acquirerDeliveryPostalPlace", "transaction");
     $dibsInvoiceFieldsString = "";
   
     foreach($_POST as $key=>$value) {
