@@ -111,7 +111,7 @@ function commerce_dibspw_settings_form($settings = NULL) {
     
    $form['dibspw_partnerid'] = array(
         '#type' => 'textfield',
-        '#title' => t('DIBS Partner Id'),
+        '#title' => t('DIBS Integration ID'),
         '#description' => t('Partner Id.'),
         '#default_value' => $settings['dibspw_partnerid'],
         '#size' => 16
